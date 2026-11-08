@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC GYM EGYPT | TRAIN DIFFERENT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==========================================
+         شاشة المقدمة السينمائية (Intro)
+         ========================================== -->
+    <div class="intro-screen" id="intro-screen">
+        <h1 class="intro-text">
+            <span class="intro-ufc">UFC</span>
+            <span class="intro-sub">TRAIN DIFFERENT</span>
+        </h1>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#about">ABOUT</a>
+        <a href="#plans">PLANS</a>
+        <a href="#branches">BRANCHES</a>
+        <a href="#contact">CONTACT</a>
+        <a href="#freepass" style="color: var(--red);">GET YOUR FREEPASS</a>
+    </div>
+
+    <!-- ==========================================
+         الصفحة الرئيسية
+         ========================================== -->
+    <div class="page" id="page">
+        
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <span class="logo-text">UFC <span style="color: var(--red);">GYM</span></span>
+            </div>
+            <nav class="nav">
+                <a href="#about">ABOUT</a>
+                <a href="#plans">PLANS</a>
+                <a href="#branches">BRANCHES</a>
+                <a href="#contact">CONTACT</a>
+                <a href="#freepass" class="btn-nav">GET YOUR FREEPASS</a>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <video class="hero-video" autoplay muted loop playsinline poster="assets/hero-poster.jpg">
+                <source src="assets/hero-video.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+            
+            <div class="hero-content">
+                <p class="hero-subtitle">UFC GYM EGYPT</p>
+                <h1 class="hero-title">TRAIN<br><span>DIFFERENT</span></h1>
+                
+                <div class="countdown-wrapper">
+                    <p class="countdown-label">LIMITED TIME OFFER</p>
+                    <div class="countdown" id="countdown">
+                        <div class="time-box"><span id="days">00</span><small>DAYS</small></div>
+                        <div class="time-box"><span id="hours">00</span><small>HRS</small></div>
+                        <div class="time-box"><span id="minutes">00</span><small>MIN</small></div>
+                        <div class="time-box"><span id="seconds">00</span><small>SEC</small></div>
+                    </div>
+                </div>
+
+                <a href="#plans" class="btn-primary">GET YOUR FREEPASS</a>
+            </div>
+
+            <div class="scroll-indicator">
+                <div class="line"></div>
+                <span>SCROLL</span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="section-container">
+                <div class="about-text">
+                    <p class="section-label">ABOUT UFC GYM</p>
+                    <h2 class="section-title">MORE THAN<br><span>A GYM.</span></h2>
+                    <p class="section-desc">
+                        In addition to providing all the training facilities, classes, and equipment of a traditional UFC GYM location, the UFC GYM Egypt branches are equipped with a full range of up-to-date cardio and strength equipment.
+                    </p>
+                    <p class="section-desc">
+                        Plus, UFC GYM Egypt branches feature a spa that offers a full range of treatments to relax, restore & enhance your body.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/gym-1.jpg" alt="UFC GYM" style="width: 100%; height: auto; display: block;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Plans Section -->
+        <section class="plans" id="plans">
+            <div class="section-container">
+                <p class="section-label">CHOOSE YOUR PLAN</p>
+                <h2 class="section-title">START NOW!<br><span>BE PART OF UFC GYM.</span></h2>
+                
+                <div class="plans-grid">
+                    <div class="plan-card">
+                        <h3 class="plan-name">ULTIMATE</h3>
+                        <ul class="plan-features">
+                            <li>9 Guest Invitations</li>
+                            <li>2 Months Freeze</li>
+                            <li>2 Sessions with a Fitness Trainer</li>
+                            <li>1 Session with an MMA Coach</li>
+                            <li>1 Nutrition session</li>
+                            <li>2 Body Assessment sessions</li>
+                        </ul>
+                        <a href="#contact" class="btn-plan">PURCHASE PLAN</a>
+                    </div>
+
+                    <div class="plan-card featured">
+                        <span class="badge">MOST POPULAR</span>
+                        <h3 class="plan-name">CHAMPION</h3>
+                        <ul class="plan-features">
+                            <li>15 Guest Invitations</li>
+                            <li>3 Months Freeze</li>
+                            <li>Hydro-Massage Pool access (Zayed)</li>
+                            <li>Hydro-Massage therapy (Zayed)</li>
+                            <li>3 Sessions with a Fitness Trainer</li>
+                            <li>1 Session with an MMA Coach</li>
+                            <li>1 Nutrition session</li>
+                            <li>2 Body Assessment sessions</li>
+                        </ul>
+                        <a href="#contact" class="btn-plan">PURCHASE PLAN</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Branches Section -->
+        <section class="branches" id="branches">
+            <div class="section-container">
+                <p class="section-label">OUR LOCATIONS</p>
+                <h2 class="section-title">FIND YOUR<br><span>ARENA.</span></h2>
+                
+                <div class="branches-grid">
+                    <div class="branch-card"><h3>ZAYED</h3><p>Trivium Zayed, Building B, Floor 1</p></div>
+                    <div class="branch-card"><h3>PALM HILLS</h3><p>Palm Hills Development</p></div>
+                    <div class="branch-card"><h3>ONE KATTAMEYA</h3><p>One Kattameya Mall</p></div>
+                    <div class="branch-card"><h3>THE CLUB</h3><p>The Club, Sheikh Zayed</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <p class="section-label">ONE TEAM ONE FIGHT</p>
+                <h2 class="cta-title">START YOUR<br><span>JOURNEY.</span></h2>
+                <a href="#contact" class="btn-primary">JOIN NOW</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="section-container">
+                <p class="section-label">GET IN TOUCH</p>
+                <h2 class="section-title">CONTACT<br><span>US.</span></h2>
+                
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <p><strong>Address:</strong> Trivium Zayed, Building B, Floor 1, Office B115, El Sheikh Zayed, Giza, Egypt</p>
+                        <p><strong>Phone:</strong> +20 121 232 2222</p>
+                        <p><strong>Email:</strong> info@ufcgymegy.com</p>
+                        <div class="socials">
+                            <a href="https://www.facebook.com/UFCGymEgypt/" target="_blank">FACEBOOK</a>
+                            <a href="https://www.instagram.com/ufcgymegypt/" target="_blank">INSTAGRAM</a>
+                            <a href="https://www.tiktok.com/@ufcgymegypt.me" target="_blank">TIKTOK</a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="tel" placeholder="Your Phone" required>
+                        <select required>
+                            <option value="">Select Branch</option>
+                            <option>Zayed</option>
+                            <option>Palm Hills</option>
+                            <option>One Kattameya</option>
+                            <option>The Club</option>
+                        </select>
+                        <textarea placeholder="Your Message (Optional)" rows="4"></textarea>
+                        <button type="submit" class="btn-primary">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 UFC GYM EGYPT. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <!-- Chat Widget -->
+    <div class="chat-btn" id="chat-btn">
+        <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+    </div>
+
+    <div class="chat-window" id="chat-window">
+        <div class="chat-header">
+            <h3>UFC GYM BOT</h3>
+            <button class="chat-close" id="chat-close">&times;</button>
+        </div>
+        <div class="chat-body" id="chat-body">
+            <div class="chat-message bot">Welcome to UFC GYM Egypt! How can we help you today?</div>
+        </div>
+        <div class="chat-options" id="chat-options">
+            <button class="chat-option" data-q="free pass">Get Free Pass</button>
+            <button class="chat-option" data-q="plans">Plans & Pricing</button>
+            <button class="chat-option" data-q="branches">Branches</button>
+            <button class="chat-option" data-q="contact">Contact Us</button>
+        </div>
+        <div class="chat-input-wrap">
+            <input class="chat-input" id="chat-input" placeholder="Type a message..." />
+            <button class="chat-send" id="chat-send">&#10148;</button>
+        </div>
+    </div>
+
+    <!-- GSAP + ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
